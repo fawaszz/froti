@@ -1,0 +1,30 @@
+.blue-container {
+    position: relative;
+    background-color: rgb(240, 145, 48);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .blue-container img {
+    max-width: 80%; 
+    height: auto;
+    display: block;
+  }
+
+  .blue-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .ParaStyle {
+    line-height: 1.6;
+    margin: 20px;
+    text-align: justify;
+  }
